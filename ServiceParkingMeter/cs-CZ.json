@@ -1,0 +1,87 @@
+﻿{
+  "translation": {
+    "loadingTitle": "Čekejte prosím",
+    "closeBtn": "Zavřít",
+    "chooseTariff": {
+      "title": "Zvolte tarif",
+      "backBtn": "zpět"
+    },
+    "licencePlate": {
+      "title": "Zkontrolujte SPZ/RZ vozidla",
+      "lp": "nezadáno",
+      "backBtn": "zpět",
+      "payBtn": "pokračovat",
+      "hint": "SPZ/RZ bude součástí dokladu a slouží pro případnou kontrolu"
+    },
+    "keyboard": {
+      "cancel": "zpět",
+      "enter": "vložit",
+      "title": "Zadejte SPZ/RZ vozidla"
+    },
+    "info": {
+      "printing": "Probíhá tisk lístku",
+      "outOfOrder": "Zařízení mimo provoz",
+      "timeOut": "Vypršel časový limit",
+      "storno": "Lístek je stornován :(",
+      "paymentDone": "Platba úspěšně provedena",
+      "thanks": "Děkujeme!",
+      "preparing": "Probíhá příprava lístku"
+    },
+    "paymentType": {
+      "message": "Vyberte způsob platby",
+      "cash": "hotově",
+      "cashless": "kartou",
+      "payBtn": "Zaplatit",
+      "backBtn": "zpět"
+    },
+    "inputByCash": {
+      "message": "Vhazujte mince",
+      "tip": "Vhazováním mincí se Vám bude přičítat čas",
+      "price": "vhozené mince",
+      "time": "parkování do",
+      "payBtn": "Zaplatit",
+      "backBtn": "storno"
+    },
+    "inputByButtons": {
+      "message": "Zvolte dobu parkování",
+      "tip": "Stisknutím tlačítek + a - se Vám bude čas načítat nebo odečítat",
+      "price": "cena",
+      "time": "parkování do",
+      "payBtn": "Zaplatit",
+      "backBtn": "zpět"
+    },
+    "chooseTimeType": {
+      "message": "Zvolte dobu parkování nebo částku",
+      "time": "zvolit dobu parkování",
+      "price": "zvolit dobu vhozením mincí",
+      "backBtn": "zpět"
+    },
+    "cash": {
+      "message": "Vložte hotovost do terminálu",
+      "tip": "Vložená hotovost se Vám bude automaticky odečítat od celkové ceny",
+      "price": "zbývá vložit",
+      "stornoBtn": "storno"
+    },
+    "cashless": {
+      "message": "Přiložte kartu k platební bráně",
+      "ticketMessage": "Tisknout doklad o zaplacení?",
+      "price": "cena",
+      "stornoBtn": "storno",
+      "btn-no": "Netisknout",
+      "btn-yes": "Tisknout",
+      "tip": "Sledujte instrukce na platebním terminálu"
+    },
+    "services": {
+      "ServiceParkingMeter": {
+        "name": "Parkovací automat",
+        "TariffCar": "Osobní automobil",
+        "TariffTruck": "Nákladní automobil"
+      }
+    },
+    "nominals": {
+      "nominalName": "{{value}}",
+      "coins": "Mince: {{value}}",
+      "banknotes": "Bankovky: {{value}}"
+    }
+  }
+}

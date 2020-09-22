@@ -1,0 +1,87 @@
+﻿{
+  "translation": {
+    "loadingTitle": "Wait please",
+    "closeBtn": "Close",
+    "chooseTariff": {
+      "title": "Choose a tariff",
+      "backBtn": "back"
+    },
+    "licencePlate": {
+      "title": "Check vehicle LP",
+      "lp": "not inserted",
+      "backBtn": "back",
+      "payBtn": "continue",
+      "hint": "The license plate will be part of the document and is used for possible inspection"
+    },
+    "keyboard": {
+      "cancel": "back",
+      "enter": "enter",
+      "title": "Enter vehicle LP"
+    },
+    "info": {
+      "printing": "Printing ticket",
+      "outOfOrder": "Device is out of order",
+      "timeOut": "Request timed out",
+      "storno": "Ticket cancelled :(",
+      "paymentDone": "Successful payment",
+      "thanks": "Thank you!",
+      "preparing": "Ticket preparation in progress"
+    },
+    "paymentType": {
+      "message": "Choose payment method",
+      "cash": "by cash",
+      "cashless": "by card",
+      "payBtn": "Pay",
+      "backBtn": "back"
+    },
+    "inputByCash": {
+      "message": "Insert coins",
+      "tip": "Throwing in coins will add time",
+      "price": "inserted coins",
+      "time": "parking to",
+      "payBtn": "Pay",
+      "backBtn": "cancel"
+    },
+    "inputByButtons": {
+      "message": "Select parking time",
+      "tip": "Pressing the + and - buttons will allow you to load or subtract time",
+      "price": "price",
+      "time": "time to",
+      "payBtn": "Pay",
+      "backBtn": "back"
+    },
+    "chooseTimeType": {
+      "message": "Select parking time or price",
+      "time": "select parking time",
+      "price": "select price",
+      "backBtn": "back"
+    },
+    "cash": {
+      "message": "Throw in cash to the terminal",
+      "tip": "The deposited cash will be automatically deducted from the total price",
+      "price": "remains to be inserted",
+      "stornoBtn": "cancel"
+    },
+    "cashless": {
+      "message": "Hold the card next to the payment gateway",
+      "ticketMessage": "Print proof of payment?",
+      "price": "price",
+      "stornoBtn": "cancel",
+      "btn-no": "No",
+      "btn-yes": "Yes",
+      "tip": "Follow the instructions on the payment terminal"
+    },
+    "services": {
+      "ServiceParkingMeter": {
+        "name": "Parking meter",
+        "TariffCar": "Tarif car",
+        "TariffTruck": "Tarif truck"
+      }
+    },
+    "nominals": {
+      "nominalName": "{{value}}",
+      "coins": "Coins: {{value}}",
+      "banknotes": "Bank notes: {{value}}"
+    }
+  }
+}

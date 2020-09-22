@@ -1,0 +1,560 @@
+﻿{
+  "translation": {
+    "loadingTitle": "Wait please",
+    "menuName": "{{ userName }}",
+    "languages": "Languages",
+    "logout": "Logout",
+    "btn-save": "Save",
+    "btn-reset": "Reset changes",
+    "btn-yes": "Yes",
+    "btn-no": "No",
+    "options": "Options",
+    "edit": "Edit",
+    "delete": "Delete",
+    "content-tabs": "Tabs",
+    "content-sections": "Sections",
+    "execute": "Execute",
+    "close": "Close",
+    "input-file": "Select file",
+    "InputPart": "Inputs",
+    "OutputPart": "Outputs",
+    "add": "Add",
+    "bc": {
+      "service-menu": "List of services",
+      "admin": "Administration",
+      "overview": "Overview",
+      "new-user": "New user",
+      "login": "Login"
+    },
+    "login-page": {
+      "btn-sign": "Sign in",
+      "btn-back": "Back",
+      "set-password": "Set account password",
+      "select-user": "Select user from list",
+      "bad-login": "Bad password!",
+      "unauthorized": "Unexpected error! Please try again later.",
+      "no-password": "Account password not specified!",
+      "set-super-password": "Set password for key \"{{ key }}\"",
+      "IncorrectPassword": "Bad password",
+      "UnknownAccount": "Unknown account!"
+    },
+    "overview": {
+      "sw": "Software",
+      "hw": "Hardware",
+      "finance": "Finance",
+      "system": "System"
+    },
+    "card": {
+      "restart": "Restart",
+      "turnoff": "Turn off",
+      "setting": "Device settings",
+      "updates": "Updates",
+      "restart-confirm": "Are you sure you want to restart device?",
+      "turnoff-confirm": "Are you sure you want to turn off device?"
+    },
+    "user": {
+      "create-new": "New user",
+      "user-name": "User name",
+      "email": "E-mail",
+      "password": "Password",
+      "confirm-pasword": "Confirm password",
+      "change-password": "Change password",
+      "role": "Role",
+      "confirm-delete": "Are you sure you want to delete user {{ user }}?",
+      "error-login-existing": "New password is not same as confirm password!",
+      "error-login-notexisting": "Password is not specified or passwords are not same!"
+    },
+    "role": {
+      "role-name": "Role name",
+      "create-new": "New role",
+      "name": "Role name",
+      "permissions": "Role permissions",
+      "confirm-delete": "Are you sure you want to delete role {{ permission }}?"
+    },
+    "permission": {
+      "permission-name": "Permission name",
+      "create-new": "New permission",
+      "name": "Permission name",
+      "confirm-delete": "Are you sure you want to delete permission {{ permission }}?"
+    },
+    "Login": {
+      "name": "Login",
+      "Users": "Users",
+      "Roles": "Roles",
+      "Permissions": "Permissions"
+    },
+    "PrinterSanei": {
+      "name": "Printer Sanei",
+      "TabSetting": "Settings",
+      "TabControl": "Controls",
+      "Setting": {
+        "Model": "Printer name",
+        "Model-description": "Installed printer model",
+        "printer-temp": "Print to temp?",
+        "printer-status": "Interval to refresh status",
+        "printer-timeout": "Print timeout (s)"
+      },
+      "Control": {
+        "Methods": "Testing methods",
+        "PrinterInfo": "Printer informations",
+        "PrinterStatus": "Printer statuses",
+        "TestPrintNone": "Print without cut",
+        "TestPrintPartial": "Print with partial cut",
+        "TestPrintFull": "Print with full cut",
+        "FirmwareInfo": "Firmware",
+        "NumberOfDosts": "Number of dots",
+        "PrintingHeightMillimeters": "Printing height",
+        "PrinterModel": "Model",
+        "PrintingWidthMillimeters": "Printing width",
+        "ResolutionDotsPerMillimeter": "Resolution",
+        "AnyError": "AnyError",
+        "DrawerKickout": "DrawerKickout",
+        "HeadOpen": "HeadOpen",
+        "Cutter": "Cutter",
+        "MediaEmpty": "MediaEmpty",
+        "MediaLow": "MediaLow",
+        "Presenter": "Presenter",
+        "PresenterPaper": "PresenterPaper",
+        "NoPaper": "NoPaper",
+        "Offline": "Offline",
+        "Temperature": "Temperature",
+        "Voltage": "Voltage",
+        "TemperatureError": "TemperatureError",
+        "Image": "Image",
+        "CutType": "Cut type"
+      },
+      "error-printer-name-empty": "Name of printer can not be empty!"
+    },
+    "PrinterHengstler": {
+      "name": "Printer Hengstler",
+      "Setting": "Settings",
+      "printer-name": "Printer name",
+      "printer-status": "Interval to refresh status",
+      "printer-timeout": "Print timeout (s)",
+      "printer-address": "IP address",
+      "printer-port": "Port",
+      "printer-width": "Printing width",
+      "printer-height": "Printing height",
+      "error-printer-name-empty": "Name of printer can not be empty!",
+      "error-printer-address-empty": "IP address of printer can not be empty!"
+    },
+    "PaymentGateway": {
+      "name": "Payment Gateway",
+      "TabSetting": "Settings",
+      "TabReceipt": "Receipt lines",
+      "TabStateInfo": "State info",
+      "TabControl": "Controls",
+      "Setting": {
+        "client-id": "Client ID",
+        "terminal-id": "Terminal ID",
+        "acuirer-id": "Acquirer ID",
+        "suppliers-as-html": "Suppliers list as HTML"
+      },
+      "StateInfo": {
+        "Status": "Information",
+        "PaymentGatewayInfo": "Version",
+        "State": "State",
+        "Message": "Message",
+        "PaymentGatewayStatus": "PG state",
+        "PaymentGatewayStatusReason": "PG Reason",
+        "Suppliers": "Devices"
+      },
+      "Control": {
+        "Methods": "Control methods",
+        "CommunicationTest": "Test communication to PG",
+        "Settlement": "Settlement",
+        "TMSB_Call": "TMS call B-protocol",
+        "TMSN_Call": "TMS call N-protocol",
+        "Handshake_Call": "Test Terminal -> internet"
+      },
+      "Receipt": {
+        "Lines": "Lines",
+        "ReceiptLines": "Last receipt"
+      }
+    },
+    "CoinAcceptorExample": {
+      "name": "Coin acceptor MOCK",
+      "TabSetting": "Settings",
+      "Setting": {
+        "FakeInsert": "Fake insert enable"
+      }
+    },
+    "CoinDeviceController": {
+      "name": "Coin controller",
+      "TabSetting": "Settings",
+      "TabStateInfo": "State info",
+      "TabControl": "Controls",
+      "Setting": {
+        "FlapOpeningTime": "Time for opening flaps (ms)",
+        "IsCoinDispenser": "Coin dispenser exists",
+        "IsEscrow": "Coin escrow exists",
+        "SwitchCoinSlot": "Pin number (OUT) for coin slot",
+        "SwitchFlapCashSave": "Pin number (OUT) for flap to cashbox",
+        "SwitchFlapCashReturn": "Pin number (OUT) for flap to reject coins"
+      },
+      "StateInfo": {
+        "Info": "",
+        "State": "Device state",
+        "IsEnableAcceptance": "Enable acceptance",
+        "IsCoinDispenser": "Is coin dispenser",
+        "IsEscrowExist": "Is escrow exist",
+        "CoinsInEscrow": "Some coins in escrow"
+      },
+      "Control": {
+        "Methods": "Controls",
+        "EnableAcceptance": "Enable acceptance",
+        "DisableAcceptance": "Disable acceptance",
+        "EscrowReject": "Reject coins",
+        "IsEnableAcceptance": "Enable acceptance",
+        "CoinsInEscrow": "Some coins in escrow"
+      }
+    },
+    "VatCZ": {
+      "name": "Calculation of VAT for the Czech Republic",
+      "TabControl": "Test calculation",
+      "Control": {
+        "TestCalculation": "",
+        "Amount": "Amount",
+        "AmountVAT": "Amount VAT",
+        "AmountWithoutVAT": "Amount without VAT",
+        "VAT": "VAT",
+        "CalculateVAT": "Calculate VAT"
+      }
+    },
+    "InvipoRestClient": {
+      "name": "Invipo rest client"
+    },
+    "ReportsGenerator": {
+      "name": "Reports generator",
+      "TabSetting": "",
+      "Setting": {
+        "CustomArgs": "Custom Args",
+        "TemplatePath": "Template Path",
+        "TemporarilyFilePath": "Temporarily File Path",
+        "WkHtmlToImageExeName": "WkHtmlToImageExeName"
+      }
+    },
+    "Payment": {
+      "name": "Payment module",
+      "TabStateInfo": "",
+      "TabSetting": "",
+      "Setting": {
+        "PaymentTimeout": "Payment limit"
+      },
+      "StateInfo": {
+        "Info": "",
+        "CashDevices": "Cash devices",
+        "CashlessDevices": "Cashless devices",
+        "Status": "Stav"
+      }
+    },
+    "GPIOMock": {
+      "name": "GPIO mock",
+      "TabSetting": "Setup",
+      "Setting": {
+        "Inputs": {
+          "Name": "Name",
+          "Pin": "Pin",
+          "Inverted": "Inverted"
+        },
+        "Outputs": {
+          "Name": "Name",
+          "Pin": "Pin",
+          "Inverted": "Inverted"
+        }
+      }
+    },
+    "PjnQrReader": {
+      "name": "PJN QR reader",
+      "TabSetting": "Settings",
+      "TabControl": "Controls",
+      "Control": {
+        "DisableReading": "Disable Reading",
+        "EnableReading": "Enable Reading",
+        "EjectTicket": "Eject ticket",
+        "Identificator": "Card Number",
+        "IsEnableReading": "Is Enable Reading",
+        "TestReader": "Test Reader",
+        "State": "State",
+        "StateMessage": "Message"
+      },
+      "Setting": {
+        "ComPortBaudrate": "Baud rate",
+        "ComPortName": "COM name",
+        "DoubleSideReading": "Double Side Reading"
+      }
+    },
+    "RfIdReader": {
+      "name": "RfId reader",
+      "TabSetting": "Settings",
+      "TabControl": "Controls",
+      "Control": {
+        "DisableReading": "Disable Reading",
+        "EnableReading": "Enable Reading",
+        "Identificator": "Card Number",
+        "IsEnableReading": "Is Enable Reading",
+        "TestReader": "Test Reader",
+        "State": "State",
+        "StateMessage": "Message"
+      },
+      "Setting": {
+        "ComPortBaudrate": "Baud rate",
+        "ComPortName": "COM name"
+      }
+    },
+    "ReaderManager": {
+      "name": "Reader manager",
+      "TabControl": "Controls",
+      "Control": {
+        "DisableReading": "Disable Reading",
+        "EnableReading": "Enable Reading",
+        "Readers": "Readers",
+        "IsEnableReading": "Is Enable Reading",
+        "IdentifierType": "Identifier type",
+        "IdentifierValue": "Value",
+        "TestReader": "Test Reader",
+        "State": "State"
+      }
+    },
+    "ServiceManager": {
+      "name": "Service manager",
+      "TabSetting": "Settings",
+      "Setting": {
+        "CurrencyCode": "Currency Code",
+        "CurrencyId": "Currency ID",
+        "DisplaySymbol": "Currency symbol",
+        "Languages": "Languages",
+        "PathForSavingDocuments": "Path for saving documents",
+        "ServiceNameDefault": "Default service"
+      }
+    },
+    "ServiceServiceMenu": {
+      "name": "Service menu",
+      "TabSetting": "Settings",
+      "Setting": {
+        "CustomerVisible": "Visible service for customer ",
+        "InputTimeout": "Input timeout",
+        "PluginLocationInOpc": "Plugin location in OPC"
+      }
+    },
+    "ServiceParkingMeter": {
+      "name": "Service Parking Meter",
+      "TabSetting": "Settings",
+      "Setting": {
+        "CustomerVisible": "Visible service for customer ",
+        "InputTimeout": "Input timeout",
+        "InvipoEnable": "Enable Invipo system",
+        "LpnIsRequired": "Lpn Is Required",
+        "NameOfCardReceiptGenerator": "Name of card receipt generator",
+        "NameOfReceiptReportGenerator": "Name of receipt report generator",
+        "PluginLocationInOpc": "Plugin location in OPC",
+        "PrintReceiptAlways": "Print Receipt Always",
+        "QrPrefix": "Qr prefix",
+        "QrSuffix": "Qr suffix",
+        "SaveReceiptTo": "Save receipt to",
+        "TerminalName": "Terminal Name",
+        "TimeTariffToAllowCashRecalculation": "The time plan allows cash recalculation"
+      }
+    },
+    "DataSniffing": {
+      "name": "Data sniffing",
+      "TabSetting": "Settings",
+      "Setting": {
+        "DataSave": "Data save",
+        "DataSniffing": "Data sniffing"
+      }
+    },
+    "Balance": {
+      "Detail": {
+        "Name": "Balance detail",
+        "BalanceDataId": "ID",
+        "BalanceDataReceiptId": "Receipt number"
+      },
+      "Overview": {
+        "DetailBtn": "Show detail",
+        "ChangeInterval": "Set interval",
+        "Name": "Balance overview",
+        "PrintBtn": "Print",
+        "TimeCreate": "Date of create",
+        "AddSystem": "Show system rows?"
+      }
+    },
+    "Income": {
+      "Detail": {
+        "Name": "Income detail",
+        "IncomeDataId": "ID",
+        "IncomeDataReceiptId": "Receipt number"
+      },
+      "Overview": {
+        "DetailBtn": "Show detail",
+        "ChangeInterval": "Set interval",
+        "Name": "Income overview",
+        "PrintBtn": "Print",
+        "TimeCreate": "Date of create",
+        "AddSystem": "Show system rows?"
+      }
+    },
+    "Payments": {
+      "Detail": {
+        "Name": "Payment detail",
+        "Amount": "Total amount",
+        "PaymentId": "ID",
+        "TaxBase": "VAT base",
+        "VAT": "VAT"
+      },
+      "Overview": {
+        "DetailBtn": "Show detail",
+        "ChangeInterval": "Set interval",
+        "Name": "Payments overview",
+        "PrintBtn": "Print",
+        "TimeCreate": "Date of create",
+        "AddCanceled": "Show canceled?"
+      }
+    },
+    "configuration": {
+      "name": "Device settings",
+      "network": {
+        "name": "Network",
+        "ip": "IP address",
+        "mask": "Network mask",
+        "gateway": "Default gateway",
+        "dns": "DNS server"
+      },
+      "datetime": {
+        "name": "Date and time",
+        "ntpserver": "NTP server",
+        "timeZone": "Time zone"
+      }
+    },
+    "updates": {
+      "name": "Update device",
+      "showAllPackages": "Show all packages",
+      "check": "Check for updates",
+      "packageName": "Package name",
+      "packageVersion": "Version",
+      "update": "Actualize",
+      "install": "Install",
+      "info": "Detail",
+      "uninstall": "Uninstall",
+      "confirm": "Are you sure?",
+      "updateAll": "Update all",
+      "updateState": "State",
+      "updateStateOK": "Done",
+      "updateStateError": "Error",
+      "updateResult": "Result",
+      "availablePackages": "Updates available: {{ count }}",
+      "noAvailablePackages": "No available updates",
+      "installed": {
+        "name": "Installed packages"
+      },
+      "available": {
+        "name": "Available packages",
+        "packageDetail": "Package detail",
+        "packageName": "Package name",
+        "assembly": "Assembly name",
+        "version": "Version",
+        "build": "Date of build",
+        "commit": "Commit message",
+        "depends": "Package depends"
+      }
+    },
+    "TariffAPTL": {
+      "name": "Tariff",
+      "TabSetting": "Setting",
+      "Setting": {
+        "PriorityType": "Priority type",
+        "UseMultiplier": "Use multiplier?",
+        "TariffExtraItems": {
+          "name": "Extra items",
+          "Duration": {
+            "Hour": "Duration (hours)",
+            "Min": "Duration (minutes)"
+          },
+          "Start": {
+            "Hour": "Start (hours)",
+            "Min": "Start (minutes)"
+          },
+          "Date": "Date",
+          "IsRepeated": "Repeat?"
+        },
+        "TariffHolidaysItems": {
+          "name": "Holidays",
+          "Duration": {
+            "Hour": "Duration (hours)",
+            "Min": "Duration (minutes)"
+          },
+          "Start": {
+            "Hour": "Start (hours)",
+            "Min": "Start (minutes)"
+          },
+          "Date": "Date",
+          "IsRepeated": "Repeat?"
+        },
+        "TariffInfos": {
+          "name": "Tariffs",
+          "Id": "Tariff ID",
+          "Name": "Tariff name",
+          "Tariff": "Tariff"
+        },
+        "TariffItems": {
+          "Id": "Tariff ID",
+          "name": "Tariff items",
+          "Events": {
+            "name": "Events",
+            "Enabled": "Enabled",
+            "Period": "Periods",
+            "Price": "Price",
+            "Repeat": "Repeat",
+            "Duration": {
+              "Hour": "Duration (hours)",
+              "Min": "Duration (minutes)"
+            }
+          }
+        },
+        "TariffScheduleItems": {
+          "name": "Tariff events",
+          "Id": "Tariff ID",
+          "DayOfWeek": "Day of week",
+          "Duration": {
+            "Hour": "Duration (hours)",
+            "Min": "Duration (minutes)"
+          },
+          "Start": {
+            "Hour": "Start (hours)",
+            "Min": "Start (minutes)"
+          }
+        },
+        "DisplayRpi": {
+          "TabSetting": "Setting",
+          "TabControl": "Control",
+          "Control": {
+            "Controls": "Control",
+            "Properties": "Information",
+            "LastSync": "Last sync",
+            "Sync": "Synchronize"
+          },
+          "Setting": {
+            "ip": "IP address",
+            "login": "Login account",
+            "password": "Account password",
+            "refreshPeriodInMinutes": "Renewal period"
+          }
+        }
+      }
+    },
+    "Backup": {
+      "name": "Backup/restore device",
+      "Backup": "Backup device",
+      "Restore": "Restore device",
+      "DoBackup": "Back up to USB",
+      "DoRestore": "Restore from USB",
+      "Disc": "Connected USB devices",
+      "BackupError": "Device backup failed",
+      "RestoreError": "Restore device failed",
+      "BackupSuccess": "Device backup was successful",
+      "RestoreSuccess": "Restore device was successful",
+      "confirm": "Are you sure you want to perform this action?",
+      "Refresh": "Refresh list of USB"
+    }
+  }
+}

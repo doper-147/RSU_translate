@@ -1,0 +1,562 @@
+﻿{
+  "translation": {
+    "loadingTitle": "Čekejte prosím",
+    "menuName": "{{ userName }}",
+    "languages": "Jazyky",
+    "logout": "Odhlásit se",
+    "btn-save": "Uložit",
+    "btn-reset": "Zrušit změny",
+    "btn-yes": "Ano",
+    "btn-no": "Ne",
+    "options": "Možnosti",
+    "edit": "Upravit",
+    "delete": "Smazat",
+    "content-tabs": "Záložky",
+    "content-sections": "Sekce",
+    "execute": "Spustit",
+    "close": "Zavřít",
+    "input-file": "Vyberte soubor",
+    "InputPart": "Vstupy",
+    "OutputPart": "Výstupy",
+    "add": "Přidat",
+    "bc": {
+      "service-menu": "Seznam služeb",
+      "admin": "Administrace",
+      "overview": "Přehled",
+      "new-user": "Nový uživatel",
+      "login": "Přihlášení",
+      "new-role": "Nová role",
+      "new-permission": "Nové oprávnění"
+    },
+    "login-page": {
+      "btn-sign": "Přihlásit se",
+      "btn-back": "Zpět",
+      "set-password": "Zadejte heslo účtu",
+      "select-user": "Vyberte uživatele ze seznamu",
+      "bad-login": "Chybné heslo!",
+      "unauthorized": "Neočekávaná chyba při přihlašování! Opakujte akci později.",
+      "no-password": "Není zadáno heslo účtu!",
+      "set-super-password": "Zadejte heslo pro klíč \"{{ key }}\"",
+      "IncorrectPassword": "Chybné heslo",
+      "UnknownAccount": "Neznámý uživatel!"
+    },
+    "overview": {
+      "sw": "Software",
+      "hw": "Hardware",
+      "finance": "Finance",
+      "system": "Systém"
+    },
+    "card": {
+      "restart": "Restartovat",
+      "turnoff": "Vypnout",
+      "setting": "Nastavení zařízení",
+      "restart-confirm": "Opravdu chcete restartovat zařízení?",
+      "turnoff-confirm": "Opravdu chcete vypnout zařízení?",
+      "updates": "Aktualizace"
+    },
+    "user": {
+      "create-new": "Nový uživatel",
+      "user-name": "Uživatelské jméno",
+      "email": "E-mail",
+      "password": "Heslo",
+      "confirm-pasword": "Potvrzení hesla",
+      "change-password": "Změna hesla",
+      "role": "Role",
+      "confirm-delete": "Opravdu chcete smazat uživatele {{ user }}?",
+      "error-login-existing": "Nové heslo není shodné s ověřovacím heslem!",
+      "error-login-notexisting": "Heslo není zadáno nebo hesla nejsou shodná!"
+    },
+    "role": {
+      "role-name": "Název role",
+      "create-new": "Nová role",
+      "name": "Název role",
+      "permissions": "Oprávnění role",
+      "confirm-delete": "Opravdu chcete smazat roli {{ role }}?"
+    },
+    "permission": {
+      "permission-name": "Název oprávnění",
+      "create-new": "Nové oprávnění",
+      "name": "Název oprávnění",
+      "confirm-delete": "Opravdu chcete smazat oprávnění {{ permission }}?"
+    },
+    "Login": {
+      "name": "Přihlašování",
+      "TabUsers": "Uživatelé",
+      "TabRoles": "Role",
+      "TabPermissions": "Oprávnění"
+    },
+    "PrinterSanei": {
+      "name": "Tiskárna Sanei",
+      "TabSetting": "Nastavení",
+      "TabControl": "Ovládání",
+      "Setting": {
+        "Model": "Název tiskárny",
+        "Model-description": "Instalovaný model tiskárny",
+        "printer-temp": "Tisk do tempu?",
+        "printer-status": "Interval obnovy statusu",
+        "printer-timeout": "Print timeout (s)"
+      },
+      "Control": {
+        "Methods": "Testovací volání",
+        "PrinterInfo": "Informace o tiskárně",
+        "PrinterStatus": "Stav tiskárny",
+        "TestPrintNone": "Tisk bez řezu",
+        "TestPrintPartial": "Tisk s částečným řezem",
+        "TestPrintFull": "Tisk s plným řezem",
+        "FirmwareInfo": "Firmware",
+        "NumberOfDosts": "Počet bodů",
+        "PrintingHeightMillimeters": "Výška tisku",
+        "PrinterModel": "Model",
+        "PrintingWidthMillimeters": "Šířka tisku",
+        "ResolutionDotsPerMillimeter": "Rozlišení",
+        "AnyError": "AnyError",
+        "DrawerKickout": "DrawerKickout",
+        "HeadOpen": "HeadOpen",
+        "Cutter": "Cutter",
+        "MediaEmpty": "MediaEmpty",
+        "MediaLow": "MediaLow",
+        "Presenter": "Presenter",
+        "PresenterPaper": "PresenterPaper",
+        "NoPaper": "NoPaper",
+        "Offline": "Offline",
+        "Temperature": "Temperature",
+        "Voltage": "Voltage",
+        "TemperatureError": "TemperatureError",
+        "Image": "Obrázek",
+        "CutType": "Typ řezu"
+      },
+      "error-printer-name-empty": "Název tiskárny musí být zadán!"
+    },
+    "PrinterHengstler": {
+      "name": "Tiskárna Hengstler",
+      "Setting": "Nastavení",
+      "printer-name": "Název tiskárny",
+      "printer-status": "Interval obnovy statusu",
+      "printer-timeout": "Print timeout (s)",
+      "printer-address": "IP adresa",
+      "printer-port": "Port",
+      "printer-width": "Šířka tisku",
+      "printer-height": "Výška tisku",
+      "error-printer-name-empty": "Název tiskárny musí být zadán!",
+      "error-printer-address-empty": "IP adresa tiskárny musí být zadána!"
+    },
+    "PaymentGateway": {
+      "name": "Payment Gateway",
+      "TabSetting": "Nastavení",
+      "TabReceipt": "Řádky dokladu",
+      "TabStateInfo": "Info",
+      "TabControl": "Ovládání",
+      "Setting": {
+        "client-id": "Klient ID",
+        "terminal-id": "Terminál ID",
+        "acuirer-id": "Acquirer ID",
+        "suppliers-as-html": "Seznam zařízení jako HTML"
+      },
+      "StateInfo": {
+        "Status": "Informace",
+        "PaymentGatewayInfo": "Verze",
+        "State": "Stav",
+        "Message": "Zpráva",
+        "PaymentGatewayStatus": "PG stav",
+        "PaymentGatewayStatusReason": "PG důvod",
+        "Suppliers": "Zařízení"
+      },
+      "Control": {
+        "Methods": "Ovládání",
+        "CommunicationTest": "Testovací volání na PG",
+        "Settlement": "Uzávěrka (Settlement)",
+        "TMSB_Call": "TMS volání B-protokol",
+        "TMSN_Call": "TMS volání N-protokol",
+        "Handshake_Call": "Test Terminál -> centrála"
+      },
+      "Receipt": {
+        "Lines": "Řádky",
+        "ReceiptLines": "Poslední doklad"
+      }
+    },
+    "CoinAcceptorExample": {
+      "name": "Akceptor mincí MOCK",
+      "TabSetting": "Nastavení",
+      "Setting": {
+        "FakeInsert": "Povolena simulace vhozu"
+      }
+    },
+    "CoinDeviceController": {
+      "name": "Řadič mincí",
+      "TabSetting": "Nastavení",
+      "TabStateInfo": "Stavy",
+      "TabControl": "Ovládání",
+      "Setting": {
+        "FlapOpeningTime": "Časový interval pro otevření klapky",
+        "IsCoinDispenser": "Zařízení má vydavač",
+        "IsEscrow": "Zařízení má escrow",
+        "SwitchCoinSlot": "Číslo výstupu pro štěrbinu mincí",
+        "SwitchFlapCashSave": "Číslo výstupu pro klapku - cashbox",
+        "SwitchFlapCashReturn": "Číslo výstupu pro klapku - reject"
+      },
+      "StateInfo": {
+        "Info": "",
+        "State": "Stav",
+        "IsEnableAcceptance": "Akceptace mincí povoleno",
+        "IsCoinDispenser": "Existuje vydavač mincí",
+        "IsEscrowExist": "Existuje escrow",
+        "CoinsInEscrow": "Mince v escrow"
+      },
+      "Control": {
+        "Methods": "",
+        "EnableAcceptance": "Zapnout akceptaci",
+        "DisableAcceptance": "Vypnout akceptaci",
+        "EscrowReject": "Otevřít klapku vrácení",
+        "IsEnableAcceptance": "Akceptace mincí povoleno",
+        "CoinsInEscrow": "Mince v escrow"
+      }
+    },
+    "VatCZ": {
+      "name": "Výpočet DPH pro ČR",
+      "TabControl": "Test výpočtu",
+      "Control": {
+        "TestCalculation": "",
+        "Amount": "Částka",
+        "AmountVAT": "Výše DPH",
+        "AmountWithoutVAT": "Částka bez DPH",
+        "VAT": "DPH",
+        "CalculateVAT": "Spočítat DPH"
+      }
+    },
+    "InvipoRestClient": {
+      "name": "Invipo rest klient"
+    },
+    "ReportsGenerator": {
+      "name": "Generátor reportů",
+      "TabSetting": "",
+      "Setting": {
+        "CustomArgs": "Volitelné argumenty",
+        "TemplatePath": "Složka šablon",
+        "TemporarilyFilePath": "Dočasná složka",
+        "WkHtmlToImageExeName": "WkHtmlToImageExeName"
+      }
+    },
+    "Payment": {
+      "name": "Platební modul",
+      "TabStateInfo": "Informace",
+      "TabSetting": "Nastavení",
+      "Setting": {
+        "PaymentTimeout": "Časový limit pro platbu"
+      },
+      "StateInfo": {
+        "Info": "",
+        "CashDevices": "Zařízení pro hotovostní platbu",
+        "CashlessDevices": "Zařízení pro bezhotovostní platbu",
+        "Status": "Stav"
+      }
+    },
+    "GPIOMock": {
+      "name": "GPIO mock",
+      "TabSetting": "Nastavení",
+      "Setting": {
+        "Inputs": {
+          "Name": "Název",
+          "Pin": "Pin",
+          "Inverted": "Obrácený"
+        },
+        "Outputs": {
+          "Name": "Název",
+          "Pin": "Pin",
+          "Inverted": "Obrácený"
+        }
+      }
+    },
+    "PjnQrReader": {
+      "name": "PJN QR čtečka",
+      "TabSetting": "Nastavení",
+      "TabControl": "Ovládání",
+      "Control": {
+        "DisableReading": "Vypnout čtení",
+        "EnableReading": "Zapnout čtení",
+        "EjectTicket": "Vysunout ticket",
+        "CardNumber": "Identifikátor",
+        "IsEnableReading": "Čtení je zapnuto?",
+        "TestReader": "Test čtečky",
+        "State": "Stav",
+        "StateMessage": "Zpráva ze zařízení"
+      },
+      "Setting": {
+        "ComPortBaudrate": "Baud rate",
+        "ComPortName": "COM port",
+        "DoubleSideReading": "Oboustranné čtení"
+      }
+    },
+    "RfIdReader": {
+      "name": "RfId čtečka",
+      "TabSetting": "Nastavení",
+      "TabControl": "Ovládání",
+      "Control": {
+        "DisableReading": "Vypnout čtení",
+        "EnableReading": "Zapnout čtení",
+        "CardNumber": "Identifikátor",
+        "IsEnableReading": "Čtení je zapnuto?",
+        "TestReader": "Test čtečky",
+        "State": "Stav",
+        "StateMessage": "Zpráva ze zařízení"
+      },
+      "Setting": {
+        "ComPortBaudrate": "Baud rate",
+        "ComPortName": "COM port"
+      }
+    },
+    "ReaderManager": {
+      "name": "Správce čteček",
+      "TabControl": "Ovládání",
+      "Control": {
+        "DisableReading": "Vypnout čtení",
+        "EnableReading": "Zapnout čtení",
+        "Readers": "Seznam zařízení",
+        "IsEnableReading": "Čteni je zapnuto",
+        "IdentifierType": "Typ identifikátoru",
+        "IdentifierValue": "Hodnota",
+        "TestReader": "Test čtečky",
+        "State": "Stav"
+      }
+    },
+    "ServiceManager": {
+      "name": "Správce služeb",
+      "TabSetting": "Nastavení",
+      "Setting": {
+        "CurrencyCode": "Kód měny",
+        "CurrencyId": "Měna ID",
+        "DisplaySymbol": "Symbol měny",
+        "Languages": "Jazykové nastavení",
+        "PathForSavingDocuments": "Cesta pro ukládání dokumentů",
+        "ServiceNameDefault": "Výchozí služba"
+      }
+    },
+    "ServiceServiceMenu": {
+      "name": "Služba Servisní menu",
+      "TabSetting": "Nastavení",
+      "Setting": {
+        "CustomerVisible": "Službu vidí zákazník",
+        "InputTimeout": "Timeout neaktivity",
+        "PluginLocationInOpc": "Umístění pluginů v OPC"
+      }
+    },
+    "ServiceParkingMeter": {
+      "name": "Služba Parkomat",
+      "TabSetting": "Nastavení",
+      "Setting": {
+        "CustomerVisible": "Službu vidí zákazník",
+        "InputTimeout": "Timeout neaktivity",
+        "InvipoEnable": "Invipo system aktivní",
+        "LpnIsRequired": "SPZ je vyžadována",
+        "NameOfCardReceiptGenerator": "Název generátoru reportů pro platbu kartou",
+        "NameOfReceiptReportGenerator": "Název generátoru reportů dokladu o platbě",
+        "PluginLocationInOpc": "Umístění pluginů v OPC",
+        "PrintReceiptAlways": "Tisk dokladu o platbě vždy",
+        "QrPrefix": "Qr prefix",
+        "QrSuffix": "Qr suffix",
+        "SaveReceiptTo": "Umístění pro ukládání dokladů",
+        "TerminalName": "Název pokladny",
+        "TimeTariffToAllowCashRecalculation": "Při změně času přepočítat hotovost"
+      }
+    },
+    "DataSniffing": {
+      "name": "Data sniffing",
+      "TabSetting": "Nastavení",
+      "Setting": {
+        "DataSave": "Ukládat data",
+        "DataSniffing": "Načítat data"
+      }
+    },
+    "Balance": {
+      "Detail": {
+        "Name": "Detail výčetky",
+        "BalanceDataId": "ID",
+        "BalanceDataReceiptId": "Číslo dokladu"
+      },
+      "Overview": {
+        "DetailBtn": "Zobrazit detail",
+        "ChangeInterval": "Nastavit interval",
+        "Name": "Přehled výčetek",
+        "PrintBtn": "Tisk",
+        "TimeCreate": "Datum vytvoření",
+        "AddSystem": "Zobrazit systémové záznamy?"
+      }
+    },
+    "Income": {
+      "Detail": {
+        "Name": "Detail income",
+        "IncomeDataId": "ID",
+        "IncomeDataReceiptId": "Číslo dokladu"
+      },
+      "Overview": {
+        "DetailBtn": "Zobrazit detail",
+        "ChangeInterval": "Nastavit interval",
+        "Name": "Přehled income",
+        "PrintBtn": "Tisk",
+        "TimeCreate": "Datum vytvoření",
+        "AddSystem": "Zobrazit systémové záznamy?"
+      }
+    },
+    "Payments": {
+      "Detail": {
+        "Name": "Detail platby",
+        "Amount": "Celková částka",
+        "PaymentId": "ID",
+        "TaxBase": "Základ daně",
+        "VAT": "Daň"
+      },
+      "Overview": {
+        "DetailBtn": "Zobrazit detail",
+        "ChangeInterval": "Nastavit interval",
+        "Name": "Přehled plateb",
+        "PrintBtn": "Tisk",
+        "TimeCreate": "Datum vytvoření",
+        "AddCanceled": "Zobrazit stornované?"
+      }
+    },
+    "configuration": {
+      "name": "Nastavení zařízení",
+      "network": {
+        "name": "Síť",
+        "ip": "IP adresa",
+        "mask": "Maska sítě",
+        "gateway": "Výchozí brána",
+        "dns": "DNS server"
+      },
+      "datetime": {
+        "name": "Datum a čas",
+        "ntpserver": "NTP server",
+        "timeZone": "Časová zóna"
+      }
+    },
+    "updates": {
+      "name": "Aktualizace zařízení",
+      "showAllPackages": "Všechny balíčky",
+      "check": "Zkontrolovat dostupnost aktualizací",
+      "packageName": "Název balíčku",
+      "packageVersion": "Verze",
+      "update": "Aktualizovat",
+      "install": "Nainstalovat",
+      "info": "Podrobnosti",
+      "uninstall": "Odinstalovat",
+      "confirm": "Jste si jistí?",
+      "updateAll": "Aktualizovat vše",
+      "updateState": "Stav",
+      "updateStateOK": "Provedeno",
+      "updateStateError": "Chyba",
+      "updateResult": "Výsledek",
+      "availablePackages": "Aktualizací k dispozici: {{ count }}",
+      "noAvailablePackages": "Žádné aktualizace nejsou k dispozici",
+      "installed": {
+        "name": "Nainstalované balíčky"
+      },
+      "available": {
+        "name": "Dostupné balíčky",
+        "packageDetail": "Detail balíčku",
+        "packageName": "Název balíčku",
+        "assembly": "Knihovna",
+        "version": "Verze",
+        "build": "Datum buildu",
+        "commit": "Zpráva",
+        "depends": "Závislosti balíčku"
+      }
+    },
+    "TariffAPTL": {
+      "name": "Tarif",
+      "TabSetting": "Nastavení",
+      "Setting": {
+        "PriorityType": "Typ priority",
+        "UseMultiplier": "Použít násobičku?",
+        "TariffExtraItems": {
+          "name": "Extra události",
+          "Duration": {
+            "Hour": "Trvání (hodin)",
+            "Min": "Trvání (minut)"
+          },
+          "Start": {
+            "Hour": "Začátek (hodin)",
+            "Min": "Začátek (minut)"
+          },
+          "Date": "Datum",
+          "IsRepeated": "Opakované?"
+        },
+        "TariffHolidaysItems": {
+          "name": "Svátky",
+          "Duration": {
+            "Hour": "Trvání (hodin)",
+            "Min": "Trvání (minut)"
+          },
+          "Start": {
+            "Hour": "Začátek (hodin)",
+            "Min": "Začátek (minut)"
+          },
+          "Date": "Datum",
+          "IsRepeated": "Opakované?"
+        },
+        "TariffInfos": {
+          "name": "Tarify",
+          "Id": "ID tarifu",
+          "Name": "Jméno tarifu",
+          "Tariff": "Tarif"
+        },
+        "TariffItems": {
+          "Id": "ID tarifu",
+          "name": "Položky tarifu",
+          "Events": {
+            "name": "Události",
+            "Enabled": "Povoleno",
+            "Period": "Perioda",
+            "Price": "Cena",
+            "Repeat": "Opakovat",
+            "Duration": {
+              "Hour": "Trvání (hodin)",
+              "Min": "Trvání (minut)"
+            }
+          }
+        },
+        "TariffScheduleItems": {
+          "name": "Události tarifu",
+          "Id": "ID tarifu",
+          "DayOfWeek": "Den v týdnu",
+          "Duration": {
+            "Hour": "Trvání (hodin)",
+            "Min": "Trvání (minut)"
+          },
+          "Start": {
+            "Hour": "Začátek (hodin)",
+            "Min": "Začátek (minut)"
+          }
+        },
+        "DisplayRpi": {
+          "TabSetting": "Nastavení",
+          "TabControl": "Ovládání",
+          "Control": {
+            "Controls": "Ovládání",
+            "Properties": "Informace",
+            "LastSync": "Poslední aktualizace",
+            "Sync": "Synchronizovat"
+          },
+          "Setting": {
+            "ip": "IP adresa",
+            "login": "Přihlašovací účet",
+            "password": "Heslo účtu",
+            "refreshPeriodInMinutes": "Obnovovací perioda"
+          }
+        }
+      }
+    },
+    "Backup": {
+      "name": "Záloha/obnova zařízení",
+      "Backup": "Záloha zařízení",
+      "Restore": "Obnova zařízení",
+      "DoBackup": "Provést zálohu na USB",
+      "DoRestore": "Provést obnovu z USB",
+      "Disc": "Připojená USB zařízení",
+      "BackupError": "Záloha zařízení nebyla úspěšná",
+      "RestoreError": "Obnova zařízení nebyla úspěšná",
+      "BackupSuccess": "Záloha zařízení byla úspěšně provedena",
+      "RestoreSuccess": "Obnova zařízení byla úspěšně provedena",
+      "confirm": "Opravdu chcete tuto akci provést?",
+      "Refresh": "Obnovit seznam USB"
+    }
+  }
+}
